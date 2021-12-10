@@ -43,6 +43,15 @@
     font-size: 24px;
 }
 
+@media screen and (max-width:600px) {
+    .meninas, .meninos{
+        display: block;
+    }
+    .imagem{
+        display: none;
+    }
+}
+
 .foto{
     height:200px;
     width: 200px;
